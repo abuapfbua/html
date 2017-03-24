@@ -1,0 +1,11 @@
+#!/bin/bash
+
+while :
+do
+    DATE=$(date +%s)
+    n=$(($DATE%300))
+    if [[ $n == 0 ]] ; then
+        raspistill -w 1280 -h 720 -q 100 -o /var/www/html/camera/$DATE.jpg
+        sleep 290
+    fi
+done
