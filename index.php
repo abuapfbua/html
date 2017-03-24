@@ -99,7 +99,7 @@
 									<a class="btn btn-primary btn-large" href="createZip.php">Learn more</a>
 								</p>
 							</div>
-							
+							<!--
 							<table class="table table-hover table-striped table-condensed" id="tableID" onclick="myFun(event)">
 								<tbody>
 									<?php
@@ -168,7 +168,7 @@
 										?>
 								</tbody>
 							</table>
-							
+							-->
 							<div class="carousel slide" id="carousel-385797">
 								<ol class="carousel-indicators">
 									<?php
